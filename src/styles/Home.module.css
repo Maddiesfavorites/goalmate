@@ -283,3 +283,17 @@
     transform: rotate(0deg);
   }
 }
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  color: #8707ff;
+  border: 3px solid #8707ff;
+  border-radius: 12px;
+  background: transparent;
+ }
+ 
+ .input:active {
+  box-shadow: 2px 2px 15px #8707ff inset;
+ }
