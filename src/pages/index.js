@@ -18,7 +18,8 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Get started by signing up here!  
+            Get started by signing up here! 
+            <form action="/pages/form.js"
             <button onclick = "window.location.href= 'form.js';">HOME</button>
           </p>
         </div>
