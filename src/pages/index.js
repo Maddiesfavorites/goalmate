@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.description}>
-            <h1 className="title">
+        <h1 className="title">
               <Link href="/form">Get started by signing up here!</Link>
             </h1>
         </div>
