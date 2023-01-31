@@ -52,7 +52,11 @@ export default function Home() {
 
           <div className={styles.response}>
             {isLoading ? (
-              <div>Waiting for response ...</div>
+              <div className="loader">
+              <span className="bar"></span>
+              <span className="bar"></span>
+              <span className="bar"></span>
+          </div>
             ) : (
               <div>{response}</div>
             )}
